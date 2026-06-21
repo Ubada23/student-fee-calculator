@@ -10,4 +10,10 @@ def calculate_fee():
     elif hours.get() == "4":
         fee.set("Rs. 75000")
 
+root = Tk()
+root.title("Fee Calculator")
+root.geometry("350x300") 
+
+root
+
 
