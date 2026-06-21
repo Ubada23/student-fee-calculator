@@ -17,4 +17,11 @@ root.geometry("350x300")
 Label(root, text= "Fee Calculator"
       font= ("Aerial", 16, "bold")).pack(pady=10)
 
+gender = StringVar()
+gender.set("Male")
+
+Label(root, text="Select gender").pack()
+
+
+
 
