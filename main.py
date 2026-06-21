@@ -22,6 +22,14 @@ gender.set("Male")
 
 Label(root, text="Select gender").pack()
 
+Radiobutton(root,
+            text ="Male",
+            variable=gender,
+            value="Male").pack()
 
+Radiobutton(root,
+            text="Female",
+            variable=gender,
+            value="Female").pack()
 
 
