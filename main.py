@@ -14,6 +14,7 @@ root = Tk()
 root.title("Fee Calculator")
 root.geometry("350x300") 
 
-root
+Label(root, text= "Fee Calculator"
+      font= ("Aerial", 16, "bold")).pack(pady=10)
 
 
