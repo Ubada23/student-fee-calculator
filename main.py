@@ -32,4 +32,11 @@ Radiobutton(root,
             variable=gender,
             value="Female").pack()
 
+hours = StringVar()
+hours.set("2")
+
+Label(root, text="Credit hours").pack(pady=10)
+OptionMenu(root, hours, "2", "3", "4").pack()
+
+
 
