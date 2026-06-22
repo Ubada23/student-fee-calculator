@@ -39,4 +39,13 @@ Label(root, text="Credit hours").pack(pady=10)
 OptionMenu(root, hours, "2", "3", "4").pack()
 
 
+Button(root, text="Calculate Fee",
+       command=calculate_fee).pack(pady=10)
+
+fee = StringVar()
+Label(root, textvariable==fee,
+      font=("Arial", 12, "bold")).pack()
+
+root.mainloop()
+
 
